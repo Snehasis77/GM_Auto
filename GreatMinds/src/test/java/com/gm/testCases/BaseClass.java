@@ -8,6 +8,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.AfterClass;
@@ -25,7 +26,7 @@ public class BaseClass {
 	public String password=readconfig.getPassword();
 	public static WebDriver driver;
 	
-	
+		
 	
 	@Parameters("browser")
 	@BeforeClass
@@ -35,8 +36,16 @@ public class BaseClass {
 		
 		if(br.equals("chrome"))
 		{
+			ChromeOptions chromeOptions= new ChromeOptions(); 
+			
+			chromeOptions.setBinary("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"); 
+			// System.setProperty("webdriver.chrome.driver","C:\\chromedriver.exe");
 			System.setProperty("webdriver.chrome.driver",readconfig.getChromePath());
-			driver=new ChromeDriver();
+
+			ChromeDriver driver = new ChromeDriver(chromeOptions);
+				//driver=new ChromeDriver();
+				//driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+				driver.get(baseURL);
 		}
 		else if(br.equals("firefox"))
 		{
@@ -49,8 +58,7 @@ public class BaseClass {
 			driver = new InternetExplorerDriver();
 		}
 		
-		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
-		driver.get(baseURL);
+	
 	}
 	
 	@AfterClass

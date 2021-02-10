@@ -16,33 +16,27 @@ public class LoginPage {
 		PageFactory.initElements(rdriver, this);
 	}
 		
-	@FindBy(name="uid")
-	@CacheLookup
-	WebElement txtUserName;
+	@FindBy(name="userIdLogin")
+	private WebElement txtUserName;
 	
-	@FindBy(name="password")
+	@FindBy(name="passwordLogin")
 	@CacheLookup
 	WebElement txtPassword;
 	
-	@FindBy(name="btnLogin")
+	@FindBy(xpath="/html/body/div[1]/div/div[2]/form/div[3]/div[2]/button")
 	@CacheLookup
 	WebElement btnLogin;
 	
+
 	
-	@FindBy(xpath="/html/body/div[3]/div/ul/li[15]/a")
-	@CacheLookup
-	WebElement lnkLogout;
-	
-	
-	
-	public void setUserName(String uname)
+	public void setUserName(String username)
 	{
-		txtUserName.sendKeys(uname);
+		txtUserName.sendKeys(username);
 	}
 	
-	public void setPassword(String pwd)
+	public void setPassword(String password)
 	{
-		txtPassword.sendKeys(pwd);
+		txtPassword.sendKeys(password);
 	}
 	
 	
@@ -51,10 +45,6 @@ public class LoginPage {
 		btnLogin.click();
 	}	
 	
-	public void clickLogout()
-	{
-		lnkLogout.click();
-	}
 	
 	
 	
