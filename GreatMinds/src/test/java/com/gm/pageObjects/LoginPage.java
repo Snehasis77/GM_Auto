@@ -16,12 +16,12 @@ public class LoginPage {
 		PageFactory.initElements(rdriver, this);
 	}
 		
-	@FindBy(name="userIdLogin")
-	private WebElement txtUserName;
+	@FindBy(name="userIdLogin") WebElement txtUserName;
+
 	
-	@FindBy(name="passwordLogin")
-	@CacheLookup
-	WebElement txtPassword;
+	@FindBy(name="passwordLogin") WebElement txtPassword;
+
+	
 	
 	@FindBy(xpath="/html/body/div[1]/div/div[2]/form/div[3]/div[2]/button")
 	@CacheLookup
@@ -30,8 +30,10 @@ public class LoginPage {
 
 	
 	public void setUserName(String username)
-	{
+	{ 
 		txtUserName.sendKeys(username);
+		WebDriver driver;
+		// WebElement Uname= driver.findElement(By.id("Enter_ID"));
 	}
 	
 	public void setPassword(String password)
