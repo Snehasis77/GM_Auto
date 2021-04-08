@@ -1,0 +1,204 @@
+2021-03-15 15:23:01,239 - ebanking -INFO - URL is opened
+2021-03-15 15:23:01,404 - ebanking -INFO - Entered username
+2021-03-15 15:23:01,444 - ebanking -INFO - Entered password
+2021-03-15 15:23:12,354 - ebanking -INFO - Login test passed
+2021-03-15 17:42:29,944 - ebanking -INFO - URL is opened
+2021-03-15 17:42:30,112 - ebanking -INFO - Entered username
+2021-03-15 17:42:30,173 - ebanking -INFO - Entered password
+2021-03-15 17:42:40,949 - ebanking -INFO - Login test passed
+2021-03-15 17:42:54,057 - ebanking -INFO - URL is opened
+2021-03-15 17:49:38,858 - ebanking -INFO - URL is opened
+2021-03-15 17:49:39,002 - ebanking -INFO - Entered username
+2021-03-15 17:49:39,053 - ebanking -INFO - Entered password
+2021-03-15 17:49:49,767 - ebanking -INFO - Login test passed
+2021-03-15 17:50:05,322 - ebanking -INFO - URL is opened
+2021-03-15 17:50:05,409 - ebanking -INFO - User name is provided
+2021-03-15 17:50:05,512 - ebanking -INFO - Passsword is provided
+2021-03-15 17:50:16,472 - ebanking -INFO - Left Dashboard menu has clicked
+2021-03-15 17:51:39,261 - ebanking -INFO - URL is opened
+2021-03-15 17:51:39,453 - ebanking -INFO - Entered username
+2021-03-15 17:51:39,505 - ebanking -INFO - Entered password
+2021-03-15 17:51:49,786 - ebanking -INFO - Login test passed
+2021-03-15 17:52:01,228 - ebanking -INFO - URL is opened
+2021-03-15 17:52:01,413 - ebanking -INFO - User name is provided
+2021-03-15 17:52:01,471 - ebanking -INFO - Passsword is provided
+2021-03-15 17:52:12,743 - ebanking -INFO - Left Dashboard menu has clicked
+2021-03-15 17:52:13,067 - ebanking -INFO - Grade Sub-Menu has clicked
+2021-03-15 17:52:21,012 - ebanking -INFO - Grade Sub-Menu has clicked
+2021-03-15 17:52:21,017 - ebanking -INFO - Browse Grade Navigation Test Passed
+2021-03-16 12:05:52,099 - ebanking -INFO - URL is opened
+2021-03-16 12:05:52,317 - ebanking -INFO - Entered username
+2021-03-16 12:05:52,373 - ebanking -INFO - Entered password
+2021-03-16 12:06:02,883 - ebanking -INFO - Login test passed
+2021-03-16 12:06:14,610 - ebanking -INFO - URL is opened
+2021-03-16 12:06:14,700 - ebanking -INFO - User name is provided
+2021-03-16 12:06:14,748 - ebanking -INFO - Passsword is provided
+2021-03-16 12:06:28,891 - ebanking -INFO - Left Dashboard menu has clicked
+2021-03-16 12:06:29,149 - ebanking -INFO - Grade Sub-Menu has clicked
+2021-03-16 12:06:37,143 - ebanking -INFO - Grade Sub-Menu has clicked
+2021-03-16 12:06:37,147 - ebanking -INFO - Browse Grade Navigation Test Passed
+2021-03-16 12:50:29,726 - ebanking -INFO - URL is opened
+2021-03-16 12:50:29,950 - ebanking -INFO - Entered username
+2021-03-16 12:50:30,097 - ebanking -INFO - Entered password
+2021-03-16 12:50:47,743 - ebanking -INFO - Login test passed
+2021-03-16 12:51:00,738 - ebanking -INFO - URL is opened
+2021-03-16 12:51:00,960 - ebanking -INFO - User name is provided
+2021-03-16 12:51:01,140 - ebanking -INFO - Passsword is provided
+2021-03-16 12:51:12,769 - ebanking -INFO - Left Dashboard menu has clicked
+2021-03-16 12:51:12,959 - ebanking -INFO - Grade Sub-Menu has clicked
+2021-03-16 12:51:21,576 - ebanking -INFO - Grade Sub-Menu has clicked
+2021-03-16 12:51:21,591 - ebanking -INFO - Browse Grade Navigation Test Passed
+2021-03-16 12:53:11,291 - ebanking -INFO - URL is opened
+2021-03-16 12:53:11,511 - ebanking -INFO - Entered username
+2021-03-16 12:53:11,671 - ebanking -INFO - Entered password
+2021-03-16 12:53:22,582 - ebanking -INFO - Login test passed
+2021-03-16 12:53:30,011 - ebanking -INFO - URL is opened
+2021-03-16 12:53:30,199 - ebanking -INFO - User name is provided
+2021-03-16 12:53:30,332 - ebanking -INFO - Passsword is provided
+2021-03-16 12:53:41,900 - ebanking -INFO - Left Dashboard menu has clicked
+2021-03-16 12:53:42,123 - ebanking -INFO - Grade Sub-Menu has clicked
+2021-03-16 12:53:52,092 - ebanking -INFO - Grade Sub-Menu has clicked
+2021-03-16 12:53:52,103 - ebanking -INFO - Browse Grade Navigation Test Passed
+2021-03-16 13:08:21,056 - ebanking -INFO - URL is opened
+2021-03-16 13:08:21,333 - ebanking -INFO - Entered username
+2021-03-16 13:08:21,518 - ebanking -INFO - Entered password
+2021-03-16 13:08:47,492 - ebanking -INFO - URL is opened
+2021-03-16 13:08:47,678 - ebanking -INFO - Entered username
+2021-03-16 13:08:47,737 - ebanking -INFO - Entered password
+2021-03-16 13:08:58,522 - ebanking -INFO - Login test passed
+2021-03-16 13:11:30,759 - ebanking -INFO - URL is opened
+2021-03-16 13:11:31,244 - ebanking -INFO - Entered username
+2021-03-16 13:11:31,508 - ebanking -INFO - Entered password
+2021-03-16 13:11:45,036 - ebanking -INFO - URL is opened
+2021-03-16 13:11:45,306 - ebanking -INFO - Entered username
+2021-03-16 13:12:03,080 - ebanking -INFO - URL is opened
+2021-03-16 13:12:03,215 - ebanking -INFO - User name is provided
+2021-03-16 13:12:03,336 - ebanking -INFO - Passsword is provided
+2021-03-16 13:12:18,753 - ebanking -INFO - URL is opened
+2021-03-16 13:15:53,364 - ebanking -INFO - URL is opened
+2021-03-16 13:15:53,674 - ebanking -INFO - Entered username
+2021-03-16 13:15:53,820 - ebanking -INFO - Entered password
+2021-03-16 13:16:11,383 - ebanking -INFO - Login test passed
+2021-03-16 13:16:18,149 - ebanking -INFO - URL is opened
+2021-03-16 13:16:18,321 - ebanking -INFO - User name is provided
+2021-03-16 13:16:18,459 - ebanking -INFO - Passsword is provided
+2021-03-16 13:16:29,957 - ebanking -INFO - Left Dashboard menu has clicked
+2021-03-16 13:16:30,181 - ebanking -INFO - Grade Sub-Menu has clicked
+2021-03-16 13:16:37,624 - ebanking -INFO - Grade Sub-Menu has clicked
+2021-03-16 13:16:37,640 - ebanking -INFO - Browse Grade Navigation Test Passed
+2021-04-08 10:33:29,824 - ebanking -INFO - URL is opened
+2021-04-08 10:33:30,031 - ebanking -INFO - User name is provided
+2021-04-08 10:33:30,131 - ebanking -INFO - Passsword is provided
+2021-04-08 10:33:41,366 - ebanking -INFO - Left Dashboard menu has clicked
+2021-04-08 10:33:41,587 - ebanking -INFO - Grade Sub-Menu has clicked
+2021-04-08 10:33:49,749 - ebanking -INFO - Grade Sub-Menu has clicked
+2021-04-08 10:33:49,750 - ebanking -INFO - providing customer details....
+2021-04-08 11:10:14,370 - ebanking -INFO - URL is opened
+2021-04-08 11:10:14,774 - ebanking -INFO - User name is provided
+2021-04-08 11:10:14,884 - ebanking -INFO - Passsword is provided
+2021-04-08 11:10:27,705 - ebanking -INFO - Left Dashboard menu has clicked
+2021-04-08 11:10:27,973 - ebanking -INFO - Grade Sub-Menu has clicked
+2021-04-08 11:10:29,585 - ebanking -INFO - Grade Sub-Menu has clicked
+2021-04-08 11:10:29,586 - ebanking -INFO - providing Grade details....
+2021-04-08 11:11:56,210 - ebanking -INFO - URL is opened
+2021-04-08 11:11:56,404 - ebanking -INFO - User name is provided
+2021-04-08 11:11:56,507 - ebanking -INFO - Passsword is provided
+2021-04-08 11:12:08,133 - ebanking -INFO - Left Dashboard menu has clicked
+2021-04-08 11:12:08,308 - ebanking -INFO - Grade Sub-Menu has clicked
+2021-04-08 11:12:09,834 - ebanking -INFO - Grade Setup Sub-Menu has clicked
+2021-04-08 11:12:09,835 - ebanking -INFO - providing Grade details....
+2021-04-08 11:15:55,545 - ebanking -INFO - URL is opened
+2021-04-08 11:15:55,751 - ebanking -INFO - User name is provided
+2021-04-08 11:15:55,883 - ebanking -INFO - Passsword is provided
+2021-04-08 11:16:06,323 - ebanking -INFO - Left Dashboard menu has clicked
+2021-04-08 11:16:06,452 - ebanking -INFO - Grade Sub-Menu has clicked
+2021-04-08 11:16:07,989 - ebanking -INFO - Grade Setup Sub-Menu has clicked
+2021-04-08 11:16:07,990 - ebanking -INFO - providing Grade details....
+2021-04-08 11:18:39,328 - ebanking -INFO - URL is opened
+2021-04-08 11:18:39,494 - ebanking -INFO - User name is provided
+2021-04-08 11:18:39,587 - ebanking -INFO - Passsword is provided
+2021-04-08 11:18:50,705 - ebanking -INFO - Left Dashboard menu has clicked
+2021-04-08 11:18:50,850 - ebanking -INFO - Grade Sub-Menu has clicked
+2021-04-08 11:18:52,354 - ebanking -INFO - Grade Setup Sub-Menu has clicked
+2021-04-08 11:18:52,354 - ebanking -INFO - providing Grade details....
+2021-04-08 11:20:44,024 - ebanking -INFO - URL is opened
+2021-04-08 11:20:44,222 - ebanking -INFO - User name is provided
+2021-04-08 11:20:44,326 - ebanking -INFO - Passsword is provided
+2021-04-08 11:20:55,710 - ebanking -INFO - Left Dashboard menu has clicked
+2021-04-08 11:20:55,906 - ebanking -INFO - Grade Sub-Menu has clicked
+2021-04-08 11:20:57,521 - ebanking -INFO - Grade Setup Sub-Menu has clicked
+2021-04-08 11:20:57,521 - ebanking -INFO - providing Grade details....
+2021-04-08 11:24:22,034 - ebanking -INFO - URL is opened
+2021-04-08 11:24:22,234 - ebanking -INFO - User name is provided
+2021-04-08 11:24:22,351 - ebanking -INFO - Passsword is provided
+2021-04-08 11:24:37,947 - ebanking -INFO - Left Dashboard menu has clicked
+2021-04-08 11:38:10,535 - ebanking -INFO - URL is opened
+2021-04-08 11:38:10,728 - ebanking -INFO - User name is provided
+2021-04-08 11:38:10,832 - ebanking -INFO - Passsword is provided
+2021-04-08 11:38:21,880 - ebanking -INFO - Left Dashboard menu has clicked
+2021-04-08 11:38:22,133 - ebanking -INFO - Grade Sub-Menu has clicked
+2021-04-08 11:38:23,585 - ebanking -INFO - Grade Setup Sub-Menu has clicked
+2021-04-08 11:38:23,586 - ebanking -INFO - providing Grade details....
+2021-04-08 12:04:36,723 - ebanking -INFO - URL is opened
+2021-04-08 12:04:36,927 - ebanking -INFO - User name is provided
+2021-04-08 12:04:37,028 - ebanking -INFO - Passsword is provided
+2021-04-08 12:04:47,824 - ebanking -INFO - Left Dashboard menu has clicked
+2021-04-08 12:04:48,021 - ebanking -INFO - Grade Sub-Menu has clicked
+2021-04-08 12:04:49,519 - ebanking -INFO - Grade Setup Sub-Menu has clicked
+2021-04-08 12:04:49,520 - ebanking -INFO - providing Grade details....
+2021-04-08 12:05:09,240 - ebanking -INFO - URL is opened
+2021-04-08 12:05:09,424 - ebanking -INFO - User name is provided
+2021-04-08 12:05:09,523 - ebanking -INFO - Passsword is provided
+2021-04-08 12:05:23,015 - ebanking -INFO - Left Dashboard menu has clicked
+2021-04-08 12:05:23,194 - ebanking -INFO - Grade Sub-Menu has clicked
+2021-04-08 12:05:24,604 - ebanking -INFO - Grade Setup Sub-Menu has clicked
+2021-04-08 12:05:24,605 - ebanking -INFO - providing Grade details....
+2021-04-08 12:05:59,985 - ebanking -INFO - URL is opened
+2021-04-08 12:06:00,155 - ebanking -INFO - User name is provided
+2021-04-08 12:06:00,288 - ebanking -INFO - Passsword is provided
+2021-04-08 12:06:11,081 - ebanking -INFO - Left Dashboard menu has clicked
+2021-04-08 12:06:11,321 - ebanking -INFO - Grade Sub-Menu has clicked
+2021-04-08 12:06:12,836 - ebanking -INFO - Grade Setup Sub-Menu has clicked
+2021-04-08 12:06:12,837 - ebanking -INFO - providing Grade details....
+2021-04-08 12:07:37,624 - ebanking -INFO - URL is opened
+2021-04-08 12:07:37,801 - ebanking -INFO - User name is provided
+2021-04-08 12:07:37,901 - ebanking -INFO - Passsword is provided
+2021-04-08 12:07:49,179 - ebanking -INFO - Left Dashboard menu has clicked
+2021-04-08 12:07:49,363 - ebanking -INFO - Grade Sub-Menu has clicked
+2021-04-08 12:07:50,911 - ebanking -INFO - Grade Setup Sub-Menu has clicked
+2021-04-08 12:07:50,912 - ebanking -INFO - providing Grade details....
+2021-04-08 12:09:14,307 - ebanking -INFO - URL is opened
+2021-04-08 12:09:14,527 - ebanking -INFO - User name is provided
+2021-04-08 12:09:14,659 - ebanking -INFO - Passsword is provided
+2021-04-08 12:09:25,760 - ebanking -INFO - Left Dashboard menu has clicked
+2021-04-08 12:09:25,996 - ebanking -INFO - Grade Sub-Menu has clicked
+2021-04-08 12:09:27,492 - ebanking -INFO - Grade Setup Sub-Menu has clicked
+2021-04-08 12:09:27,493 - ebanking -INFO - providing Grade details....
+2021-04-08 12:11:01,291 - ebanking -INFO - URL is opened
+2021-04-08 12:11:01,443 - ebanking -INFO - User name is provided
+2021-04-08 12:11:01,541 - ebanking -INFO - Passsword is provided
+2021-04-08 12:11:12,961 - ebanking -INFO - Left Dashboard menu has clicked
+2021-04-08 12:11:13,172 - ebanking -INFO - Grade Sub-Menu has clicked
+2021-04-08 12:11:14,704 - ebanking -INFO - Grade Setup Sub-Menu has clicked
+2021-04-08 12:11:14,705 - ebanking -INFO - providing Grade details....
+2021-04-08 12:17:07,677 - ebanking -INFO - URL is opened
+2021-04-08 12:17:07,828 - ebanking -INFO - User name is provided
+2021-04-08 12:17:07,950 - ebanking -INFO - Passsword is provided
+2021-04-08 12:17:20,441 - ebanking -INFO - Left Dashboard menu has clicked
+2021-04-08 12:17:20,696 - ebanking -INFO - Grade Sub-Menu has clicked
+2021-04-08 12:17:21,818 - ebanking -INFO - Grade Setup Sub-Menu has clicked
+2021-04-08 12:17:21,819 - ebanking -INFO - providing Grade details....
+2021-04-08 12:25:17,308 - ebanking -INFO - URL is opened
+2021-04-08 12:25:17,515 - ebanking -INFO - User name is provided
+2021-04-08 12:25:17,623 - ebanking -INFO - Passsword is provided
+2021-04-08 12:25:31,940 - ebanking -INFO - Left Dashboard menu has clicked
+2021-04-08 12:25:32,097 - ebanking -INFO - Grade Sub-Menu has clicked
+2021-04-08 12:25:33,052 - ebanking -INFO - Grade Setup Sub-Menu has clicked
+2021-04-08 12:25:33,052 - ebanking -INFO - providing Grade details....
+2021-04-08 12:50:52,712 - ebanking -INFO - URL is opened
+2021-04-08 12:50:52,901 - ebanking -INFO - User name is provided
+2021-04-08 12:50:53,010 - ebanking -INFO - Passsword is provided
+2021-04-08 12:51:04,765 - ebanking -INFO - Left Dashboard menu has clicked
+2021-04-08 12:51:05,028 - ebanking -INFO - Grade Sub-Menu has clicked
+2021-04-08 12:51:06,449 - ebanking -INFO - Grade Setup Sub-Menu has clicked
+2021-04-08 12:51:06,449 - ebanking -INFO - providing Grade details....
