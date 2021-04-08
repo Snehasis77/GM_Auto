@@ -16,6 +16,8 @@ public class LoginPage {
 		PageFactory.initElements(rdriver, this);
 	}
 		
+	
+
 	@FindBy(name="userIdLogin") WebElement txtUserName;
 
 	
@@ -32,7 +34,7 @@ public class LoginPage {
 	public void setUserName(String username)
 	{ 
 		txtUserName.sendKeys(username);
-		WebDriver driver;
+		//WebDriver driver;
 		// WebElement Uname= driver.findElement(By.id("Enter_ID"));
 	}
 	

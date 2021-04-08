@@ -4,6 +4,11 @@ package com.gm.testCases;
 import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
+
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+//import org.apache.log4j.Logger;
+//import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -25,27 +30,36 @@ public class BaseClass {
 	public String username=readconfig.getUsername();
 	public String password=readconfig.getPassword();
 	public static WebDriver driver;
-	
+	public static Logger logger;
 		
 	
-	@Parameters("browser")
+	@Parameters({"browser"})
 	@BeforeClass
 	public void setup(String br)
 	{			
-		
-		
-		if(br.equals("chrome"))
-		{
-			ChromeOptions chromeOptions= new ChromeOptions(); 
-			
-			chromeOptions.setBinary("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"); 
-			// System.setProperty("webdriver.chrome.driver","C:\\chromedriver.exe");
-			System.setProperty("webdriver.chrome.driver",readconfig.getChromePath());
+		logger = Logger.getLogger("ebanking");
+		PropertyConfigurator.configure("Log4j.properties");
+//		
+//		if(br.equals("chrome"))
+//		{
+//			ChromeOptions chromeOptions= new ChromeOptions(); 
+//			
+//			chromeOptions.setBinary("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"); 
+//			// System.setProperty("webdriver.chrome.driver","C:\\chromedriver.exe");
+//			System.setProperty("webdriver.chrome.driver",readconfig.getChromePath());
+//
+//			ChromeDriver driver = new ChromeDriver(chromeOptions);
+//				//driver=new ChromeDriver();
+//				//driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+//				driver.get(baseURL);
+//		}
 
-			ChromeDriver driver = new ChromeDriver(chromeOptions);
-				//driver=new ChromeDriver();
-				//driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
-				driver.get(baseURL);
+		
+		if(br.equalsIgnoreCase("chrome"))
+		{
+			System.setProperty("webdriver.chrome.driver",readconfig.getChromePath());
+			//System.setProperty("webdriver.chrome.driver","./Drivers/chromedriver.exe");
+			driver=new ChromeDriver();
 		}
 		else if(br.equals("firefox"))
 		{
@@ -57,15 +71,21 @@ public class BaseClass {
 			System.setProperty("webdriver.ie.driver",readconfig.getIEPath());
 			driver = new InternetExplorerDriver();
 		}
+		else {
+			System.out.println("Enter browser name");
+		}
+		
+		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		driver.get(baseURL);
+		}
 		
 	
-	}
 	
-	@AfterClass
-	public void tearDown()
-	{
-		driver.quit();
-	}
-	
+//	@AfterClass
+//	public void tearDown()
+//	{
+//		driver.quit();
+//	}
+//	
 	
 }

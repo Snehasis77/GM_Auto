@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [InetBankingV1]">
+  <listeners>
+    <listener class-name="com.gm.utilities.Reporting"/>
+  </listeners>
   <test thread-count="5" name="BankingApp Test(failed)">
-    <parameter name="browser" value="chrome"/>
+    <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="com.gm.testCases.TC_LoginTest_001">
+      <class name="com.gm.testCases.TC_BrowseGrade_001">
         <methods>
-          <include name="loginTest"/>
           <include name="setup"/>
           <include name="tearDown"/>
+          <include name="loginTest"/>
         </methods>
-      </class> <!-- com.gm.testCases.TC_LoginTest_001 -->
+      </class> <!-- com.gm.testCases.TC_BrowseGrade_001 -->
     </classes>
   </test> <!-- BankingApp Test(failed) -->
 </suite> <!-- Failed suite [InetBankingV1] -->
