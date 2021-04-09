@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Great MInds" duration-ms="20682" started-at="2021-04-08T12:50:46 IST" finished-at="2021-04-08T12:51:06 IST">
+  <suite name="Great MInds" duration-ms="25750" started-at="2021-04-09T14:55:47 IST" finished-at="2021-04-09T14:56:13 IST">
     <groups>
     </groups>
-    <test name="BankingApp_Test_Chrome" duration-ms="20682" started-at="2021-04-08T12:50:46 IST" finished-at="2021-04-08T12:51:06 IST">
+    <test name="BankingApp_Test_Chrome" duration-ms="25750" started-at="2021-04-09T14:55:47 IST" finished-at="2021-04-09T14:56:13 IST">
       <class name="com.gm.testCases.TC_CreateGrade">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.gm.testCases.TC_CreateGrade@1786dec2]" name="setup" is-config="true" duration-ms="6237" started-at="2021-04-08T12:50:46 IST" finished-at="2021-04-08T12:50:52 IST">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.gm.testCases.TC_CreateGrade@1786dec2]" name="setup" is-config="true" duration-ms="14595" started-at="2021-04-09T14:55:48 IST" finished-at="2021-04-09T14:56:02 IST">
           <params>
             <param index="0">
               <value>
@@ -18,21 +18,48 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="loginTest()[pri:0, instance:com.gm.testCases.TC_CreateGrade@1786dec2]" name="loginTest" duration-ms="14164" started-at="2021-04-08T12:50:52 IST" finished-at="2021-04-08T12:51:06 IST">
-          <exception class="org.openqa.selenium.support.ui.UnexpectedTagNameException">
+        <test-method status="FAIL" signature="loginTest()[pri:0, instance:com.gm.testCases.TC_CreateGrade@1786dec2]" name="loginTest" duration-ms="10535" started-at="2021-04-09T14:56:02 IST" finished-at="2021-04-09T14:56:13 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Element should have been "select" but was "input"
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/aside/nav/div/ul/li[4]/a"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'SNEHASIS-LAPY', ip: '10.50.8.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: driver.version: unknown]]>
+System info: host: 'SNEHASIS-LAPY', ip: '192.168.43.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Snehasis\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50249}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 103c9a1c1e5d057348818a22e50186cb
+*** Element info: {Using=xpath, value=/html/body/aside/nav/div/ul/li[4]/a}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "input"
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/aside/nav/div/ul/li[4]/a"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'SNEHASIS-LAPY', ip: '10.50.8.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.Select.<init>(Select.java:47)
-at com.gm.testCases.TC_CreateGrade.loginTest(TC_CreateGrade.java:52)
+System info: host: 'SNEHASIS-LAPY', ip: '192.168.43.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Snehasis\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50249}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 103c9a1c1e5d057348818a22e50186cb
+*** Element info: {Using=xpath, value=/html/body/aside/nav/div/ul/li[4]/a}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.click(Unknown Source)
+at com.gm.pageObjects.BrowseGrade.clickManageGrade(BrowseGrade.java:35)
+at com.gm.testCases.TC_CreateGrade.loginTest(TC_CreateGrade.java:31)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -58,7 +85,7 @@ at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:62
 at java.lang.Thread.run(Thread.java:748)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.support.ui.UnexpectedTagNameException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->

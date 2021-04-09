@@ -18,17 +18,20 @@ public class LoginPage {
 		
 	
 
-	@FindBy(name="userIdLogin") WebElement txtUserName;
+	@FindBy(id="username") WebElement txtUserName;
 
 	
-	@FindBy(name="passwordLogin") WebElement txtPassword;
+	@FindBy(id="password") WebElement txtPassword;
 
 	
 	
-	@FindBy(xpath="/html/body/div[1]/div/div[2]/form/div[3]/div[2]/button")
+	@FindBy(id="loginButton")
 	@CacheLookup
 	WebElement btnLogin;
-	
+//	@findBy(xpath=//*[@id="concurrentAlerts"]/a[1])
+//	
+//	if 
+//	
 
 	
 	public void setUserName(String username)
